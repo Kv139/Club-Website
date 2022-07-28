@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    max-height: 120px;
+    background-color: darkgreen;
+}
+header h1 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    background-color: #333;
+    display: block;
+    position: sticky;
+    top: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+
+}
+li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 0px 15%;
+}
+
+.event {
+    background-color: #def;
+    border-radius: 5px;
+    padding: 1px 10px;
+    margin: 20px;
+}
+.event h2 {
+    font-weight: bold;
+}
